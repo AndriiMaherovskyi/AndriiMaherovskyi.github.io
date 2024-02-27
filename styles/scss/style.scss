@@ -111,7 +111,7 @@ main {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
     .icons {
         display: inline-flex;
     }
@@ -136,7 +136,7 @@ main {
         transition: .3s ease;
     }
     #check:checked~.navbar {
-        height: 15.5rem;
+        height: 17.7rem;
     }
     .navbar a {
         display: block;
@@ -205,9 +205,10 @@ main {
 /* --- */
 
 
-/* Add to family & Create family */
+/* Add to family, Create family &Personal info */
 .add-to-family,
-.create-family {
+.create-family,
+.personal-info {
     flex: 0.3 1 300px;
     margin: 10px;
     padding: 20px 30px 20px 30px;
@@ -220,10 +221,13 @@ main {
 .add-to-family button,
 .create-family h2,
 .create-family input,
-.create-family button {
+.create-family button,
+.personal-info p,
+.personal-info button {
     display: block;
     margin-bottom: 20px;
 }
+
 
 /* General */
 

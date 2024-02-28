@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    // //background-color: #fff;
+    // background-image: url('./bg_1.jpg'); /* Встановлення зображення на задній фон */
+    // background-size: cover; /* Заповнення всієї доступної площини */
+    // background-position: center; /* Розміщення зображення по центру */
+    // background-repeat: no-repeat; /* Вимкнення повторення зображення */
 }
 .container {
     flex: 0.3 1 300px;
